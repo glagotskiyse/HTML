@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+
+.target{
+    width: 300px;
+    min-height: 200px;
+    background: aqua;
+    box-sizing: border-box;
+    padding: 100px;
+    margin: 100px;
+    border-top-left-radius: 20px;
+    box-shadow: black 10px 10px 10px 10px;
+}
