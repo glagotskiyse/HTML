@@ -64,3 +64,42 @@ body{
     border-radius: 3px;
     box-shadow: gray 30px 30px 10px 5px;
 }
+
+.lesson {
+    box-sizing: border-box;
+    background: #882726;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
+
+.Gray{
+    box-sizing: border-box;
+    background: #bfbfbf;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.next{
+    box-sizing: border-box;
+    background: #6394eb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.square{
+    box-sizing: border-box;
+    width: 350px;
+    height: 350px;
+    background: #6bb867;
+}
+
+.squere_radius{
+    box-sizing: border-box;
+    width: 350px;
+    height: 350px;
+    background: #8785aa;
+    border-radius: 35px;
+}
