@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+.block{
+    box-sizing: border-box;
+    width: 500px;
+    height: 200px;
+    background: #7f7f80;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    box-shadow: #d5b791 -30px -30px 40px 10px;
+}
+
+.divtxt{
+    box-sizing: border-box;
+    border-left: 5px solid #fc0001;
+    margin-left: 10px;
+}
+
+.paragraph{
+    box-sizing: border-box;
+    padding-left: 20px;
+    font-size: 20px;
+    margin: 0;
+}
