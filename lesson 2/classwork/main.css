@@ -13,6 +13,8 @@ body{
     border: 10px solid #fd6e1d;
     border-radius: 50px;
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding: 10px;
 }
 
@@ -26,6 +28,8 @@ body{
     border: 10px solid #2cfdf1;
     border-radius: 50px;
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding: 10px;
 }
 
@@ -39,6 +43,8 @@ body{
     border: 10px solid #fb53a4;
     border-radius: 50px;
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding: 10px;
 }
 
@@ -53,5 +59,6 @@ body{
     border-radius: 50px;
     padding: 10px;
     margin: auto;
-
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
