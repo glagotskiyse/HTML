@@ -1,0 +1,64 @@
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    row-gap: 5px;
+    box-sizing: border-box;
+    width: 920px;
+    height: 420px;
+    border: 2px solid black;
+}
+
+
+.A {
+    box-sizing: border-box;
+    background: orange;
+    width: 900px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+
+.A > p {
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+}
+
+.down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 5px;
+    box-sizing: border-box;
+}
+
+.B {
+    box-sizing: border-box;
+    background: greenyellow;
+    width: 700px;
+    height: 300px;
+    padding-top: 100px;
+}
+
+.B > p {
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+}
+
+.C {
+    box-sizing: border-box;
+    background: blue;
+    width: 200px;
+    height: 300px;
+    padding-top: 100px;
+}
+
+.C > p {
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+}
