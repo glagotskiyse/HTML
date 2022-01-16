@@ -1,0 +1,53 @@
+#all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 70px;
+    background: #0c65a6;
+}
+
+#Nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #124b78;
+    width: 400px;
+    height: 60px;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+}
+#Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #16A1C4FF;
+    width: 300px;
+    height: 200px;
+}
+
+#Aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5275ac;
+    width: 100px;
+    height: 200px;
+}
+
+#Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7bcae1;
+    width: 400px;
+    height: 60px;
+}
