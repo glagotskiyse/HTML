@@ -1,0 +1,94 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 5px;
+    row-gap: 1px;
+    width: 205px;
+    padding: 2px;
+}
+
+.A {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: silver;
+    width: 195px;
+    height: 50px;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    row-gap: 2px;
+    column-gap: 1px;
+
+}
+
+.BCDE {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 1px;
+    column-gap: 1px;
+    box-sizing: border-box;
+    width: 152px;
+}
+
+.B {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: silver;
+    width: 152px;
+    height: 50px;
+}
+
+.C {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: silver;
+    width: 50px;
+    height: 50px;
+}
+
+.D {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: silver;
+    width: 50px;
+    height: 50px;
+}
+
+.E {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: silver;
+    width: 50px;
+    height: 50px;
+}
+
+.F{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: silver;
+    width: 50px;
+    height: 100px;
+}
