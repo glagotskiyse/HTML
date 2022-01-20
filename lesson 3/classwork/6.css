@@ -1,0 +1,82 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.Home-About{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+.Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 400px;
+    background: #2269ba;
+    font-size: 30px;
+    color: white;
+}
+
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 400px;
+    background: #2269ba;
+    font-size: 30px;
+    color: white;
+}
+
+.Kabobs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    height: 250px;
+    background: #2269b9;
+    font-size: 30px;
+    color: white;
+}
+
+.Kabobses{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.Shishkabobs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 200px;
+    background: #164479;
+    font-size: 15px;
+    color: white;
+}
+
+.BBQ-kabobs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 200px;
+    background: #16457a;
+    font-size: 15px;
+    color: white;
+}
+
+.Summer-kabobs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 200px;
+    background: #16457a;
+    font-size: 15px;
+    color: white;
+}
