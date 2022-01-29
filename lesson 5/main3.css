@@ -1,0 +1,146 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2px;
+    border: 2px solid black;
+    width: 410px;
+    padding: 3px;
+}
+
+.A {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 405px;
+    height: 100px;
+    background: silver;
+}
+
+.BCDEFGH {
+    display: flex;
+    column-gap: 2px;
+}
+
+.BCDEFG {
+    display: flex;
+    flex-wrap: wrap;
+    width: 305px;
+    row-gap: 2px;
+    column-gap: 2px;
+}
+
+.B {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: silver;
+}
+
+.C {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: silver;
+}
+
+.D {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: silver;
+}
+
+.E {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: silver;
+}
+
+.F {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: silver;
+}
+
+.G {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: silver;
+}
+
+.H {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 202px;
+    background: silver;
+}
+
+@media screen and (max-width: 410px) {
+    .all {
+        display: flex;
+        flex-direction: column;
+        max-width: 175px;
+        row-gap: 10px;
+        border: 4px solid black;
+        border-radius: 15px;
+    }
+
+    .A {
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .BCDEFGH {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+
+    .BCDEFG {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 155px;
+        row-gap: 15px;
+        column-gap: 15px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    div > .B, .C, .D, .E, .F, .G {
+        max-width: 40px;
+        max-height: 40px;
+        border-radius: 20px;
+    }
+
+    .H {
+        width: 150px;
+        height: 80px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+}
