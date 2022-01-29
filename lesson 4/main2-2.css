@@ -1,0 +1,38 @@
+.w700{
+    width: 700px;
+}
+.h300{
+    height: 300px;
+}
+.w220{
+    width: 220px;
+}
+.h280{
+    height: 280px;
+}
+.h700{
+    height: 700px;
+}
+.bg-wig-con{
+    background: #2269ba;
+}
+.bg-wiggest{
+    background: #16457a;
+}
+.txt{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wiggest{
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
