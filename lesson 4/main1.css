@@ -1,0 +1,43 @@
+.w800{
+    width: 800px;
+}
+.h120{
+    height: 120px;
+}
+.h100{
+    height: 100px;
+}
+.w600{
+    width: 600px;
+}
+.w200{
+    width: 200px;
+}
+.h480{
+    height: 480px;
+}
+.bg-hd{
+    background: #0c65a6;
+}
+.bg-nav{
+    background: #124b78;
+}
+.bg-main{
+    background: #169ec0;
+}
+.bg-aside{
+    background: #5275ac;
+}
+.bg-footer{
+    background: #7bcbe2;
+}
+.txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.centr{
+    display: flex;
+}
