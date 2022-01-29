@@ -1,0 +1,143 @@
+.A {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 100px;
+    background: silver;
+}
+
+.B {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    background: silver;
+}
+
+.C {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 100px;
+    background: silver;
+}
+
+.D {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 100px;
+    background: silver;
+}
+
+.E {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 100px;
+    background: silver;
+}
+
+.F {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 200px;
+    background: silver;
+}
+
+.CDE {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.BCDE {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+
+.BCDEF {
+    display: flex;
+    column-gap: 2px;
+    margin-top: 2px;
+}
+
+.all {
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+@media screen and (max-width: 620px) {
+    .all {
+        display: flex;
+        flex-direction: column;
+        max-width: 200px;
+        row-gap: 30px;
+        border: 5px solid black;
+        border-radius: 30px;
+    }
+
+    .A {
+        max-width: 200px;
+        height: 50px;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+
+    .B {
+        width: 200px;
+        height: 100px;
+        border-radius: 30px;
+    }
+
+    .C {
+        border-radius: 40px;
+        height: 50px;
+    }
+
+    .D {
+        border-radius: 40px;
+        height: 50px;
+    }
+
+    .E {
+        border-radius: 40px;
+        height: 50px;
+    }
+
+    .F {
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+
+    .CDE {
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 200px;
+        column-gap: 20px;
+    }
+
+    .BCDE {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .BCDEF {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
