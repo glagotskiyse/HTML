@@ -1,0 +1,36 @@
+.all{
+    width: 705px;
+    flex-wrap: wrap;
+    display: flex;
+    border: 2px solid black;
+    padding: 3px;
+    column-gap: 3px;
+    row-gap: 3px;
+}
+.bg-silver{
+    background: silver;
+}
+.w703{
+    width: 703px;
+}
+.h100{
+    height: 100px;
+}
+.h400{
+    height: 400px;
+}
+
+.w550{
+    width: 550px;
+}
+
+.w150{
+    width: 150px;
+}
+.txt-centr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: black;
+}
