@@ -47,6 +47,7 @@ img {
     font-weight: normal;
     font-size: 60px;
     line-height: 64px;
+    letter-spacing: 0.6px;
     color: #0B2330;
     width: 436px;
     height: 256px;
@@ -87,4 +88,21 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.HeaderRight{
+    height: 886px;
+    width: 600px;
+    background: #f8c501;
+    display: flex;
+    align-items: center;
+    /**position: absolute;**/
+}
+.centr{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    position: relative;
+    left: -150px;
+    top: 100px;
 }
