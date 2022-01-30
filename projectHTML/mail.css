@@ -1,7 +1,12 @@
 .header {
     max-width: 1440px;
+    margin: 0;
+    box-sizing: border-box;
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 .header_menu {
     width: 1440px;
     height: 83px;
@@ -47,7 +52,6 @@ img {
     font-weight: normal;
     font-size: 60px;
     line-height: 64px;
-    letter-spacing: 0.6px;
     color: #0B2330;
     width: 436px;
     height: 256px;
@@ -59,10 +63,6 @@ img {
     font-size: 22px;
     line-height: 32px;
     color: #375361;
-}
-
-.header_menu_btn_item {
-    text-decoration: none;
 }
 .btmHeaderLeft{
     display: flex;
@@ -90,19 +90,104 @@ img {
     align-items: center;
 }
 .HeaderRight{
-    height: 886px;
-    width: 600px;
-    background: #f8c501;
     display: flex;
-    align-items: center;
-    /**position: absolute;**/
 }
 .centr{
     display: flex;
     justify-content: space-between;
 }
-img{
-    position: relative;
-    left: -150px;
-    top: 100px;
+.video>img{
+    position: absolute;
+    left: 720px;
+    top: 360px;
+}
+.trust{
+    display: flex;
+    justify-content: center;
+    padding-top: 189px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+}
+.trust>p{
+    width: 547px;
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 59px;
+    margin-left: 174px;
+    margin-right: 173px;
+}
+.velo{
+    display: flex;
+    margin-top: 192px;
+    margin-left: 32px;
+    width: 1376px;
+    height: 494px;
+    background: #51cdbb;
+    border-radius: 10px;
+}
+.veloP1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 114px;
+    margin-right: 121px;
+}
+.veloP2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 145px;
+    margin-bottom: 161px;
+}
+.p1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.34px;
+    color: #0B2330;
+}
+.p2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: #0B2330;
+}
+.velo_txt{
+    display: flex;
+    flex-direction: column;
+}
+.Sprig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 191px;
+}
+.Sprig>p{
+    width: 711px;
+    height: 80px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.34px;
+    color: #0B2330;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 57px;
+}
+.lastBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 127px;
 }
