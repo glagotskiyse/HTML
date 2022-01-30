@@ -1,0 +1,90 @@
+.header {
+    max-width: 1440px;
+}
+
+.header_menu {
+    width: 1440px;
+    height: 83px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    padding-left: 36px;
+}
+
+.header_menu_btn {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.header_menu_topRight {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 32px;
+}
+
+.accordion-item {
+    border: none;
+}
+
+.headerLeft {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    width: 448px;
+    position: relative;
+    top: 237px;
+    left: 147px;
+}
+
+.headerTXTh1 h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 64px;
+    color: #0B2330;
+    width: 436px;
+    height: 256px;
+}
+
+.headerTXTh4 p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: #375361;
+}
+
+.header_menu_btn_item {
+    text-decoration: none;
+}
+.btmHeaderLeft{
+    display: flex;
+    column-gap: 20px;
+}
+.btnTop{
+    background: black;
+    color: white;
+}
+.btnButton{
+    background: #f8c501;
+    color: black;
+}
+.Free {
+    width: 163px;
+    height: 54px;
+    border: none;
+}
+.Sales{
+    width: 163px;
+    height: 54px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
